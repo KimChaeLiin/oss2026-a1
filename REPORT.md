@@ -34,20 +34,24 @@ $ npm view ndarray deprecated
 deprecated 경고가 없고 dependencies도 간단하여 안정적으로 관리되고 있는 패키지임을 알게되었다. time.modified를 보아 몇년째 방치되는 패키지도 아닌 것 같다.
 ---
 
-### 2. `<패키지 이름>`
+### 2. `nodemailer`
 
-**선정 이유:**
+**선정 이유: 설명을 보았을 때 이메일을 빠르게 처리하는 방법이라해 궁금증이 생겼다.
 
-**이것으로 무엇을 할 수 있을지:**
+**이것으로 무엇을 할 수 있을지: 웹에서 이메일을 발송해 사용자의 계정을 보안 하는 과정에 사용할 수 있을 것 같다. 이메일업무를 효율적으로 관리할 수 있을 것 같다.
 
 **확인 결과:**
-
+$ npm view nodemailer version time.modified license dependencies
+version = '10.0.9'
+time.modified = '2026-09-12T09:00:02.481Z'
+license = 'MIT-0'
 ```
+$ npm view nodemailer deprecated
 
 ```
 
 **출력을 보고 알게 된 것:**
-
+deprecated 경고가 없어 안정적으로 관리되고 있는 패키지임을 알 수 있다. time.modified를 보아 몇년 째 방치되고있는 패키지가 아님도 알 수 있다.
 ---
 
 ### 3. `<패키지이름>`
