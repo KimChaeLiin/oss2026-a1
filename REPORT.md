@@ -54,20 +54,24 @@ $ npm view nodemailer deprecated
 deprecated 경고가 없어 안정적으로 관리되고 있는 패키지임을 알 수 있다. time.modified를 보아 몇년 째 방치되고있는 패키지가 아님도 알 수 있다.
 ---
 
-### 3. `<패키지이름>`
+### 3. `cows`
 
-**선정 이유:**
+**선정 이유: 이름이 특이해서 선정했다. 
 
-**이것으로 무엇을 할 수 있을지:**
+**이것으로 무엇을 할 수 있을지: 살펴보니 소 캐릭터를 출력하는 패키지이다. 따라서, 웹에서 이벤트성 문자를 출력할 때 사용할 수 있다. 또, 무작위 캐릭터를 출력해내는 프로그램에서 사용할 수 있을 것 같다. 
 
 **확인 결과:**
-
+$ npm view cows version time.modified license dependencies
+version = '3.0.1'
+time.modified = '2024-07-26T23:52:34.584Z'
+license = 'MIT'
 ```
+$ npm view cows deprecated
 
 ```
 
 **출력을 보고 알게 된 것:**
-
+deprecated경고가 없는 것으로 보아 패키지 지원이 계속 됨을 알 수 있다. 단, time.modified가 2년전으로 단순하거나 안정적인 패키지임을 알 수 있다. 
 ---
 
 ## 설치해본 패키지
