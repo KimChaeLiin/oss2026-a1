@@ -1,8 +1,8 @@
 # A1 리포트
 
-- 이름:
-- 학번:
-- GitHub ID:
+- 이름: 김채린
+- 학번: 2025402059
+- GitHub ID: KimChaeLiin
 
 ## 어디를 둘러봤는지
 
@@ -12,26 +12,29 @@
 
 ## 선정한 패키지
 
-### 1. `<패키지이름>`
+### 1. `ndarray`
 
-**선정 이유:**
+선정 이유: C에서 많이 사용했던 array가 익숙해서 선정하였다. 
 
-**이것으로 무엇을 할 수 있을지:**
+이것으로 무엇을 할 수 있을지: 단순히 설명을 보고 생각했을 때 다차원배열을 만들 수 있을 것 같다. 더 나아가서 이미지를 [너비, 높이, RGB] 형태의 3차원 배열로 표현하여 이미지 데이터를 처리할 수 있을 것이다. 또, 다차원 배열을 통해 행렬을 구현하여 행렬의 계산, 전치 등의 연산을 수행할 수 있을 것 이다.
 
 **확인 결과:**
 
-```
-$ npm view <패키지이름> version time.modified license dependencies
+$ npm view ndarray version time.modified license dependencies
+version = '1.1.1'
+time.modified = '2026-08-26T04:00:02.297Z'
+license = 'MIT'
+dependencies = { 'is-buffer': '^1.0.2', 'iota-array': '^1.0.0' }
 
-$ npm view <패키지이름> deprecated
+$ npm view ndarray deprecated
 
 ```
 
 **출력을 보고 알게 된 것:**
-
+deprecated 경고가 없고 dependencies도 간단하여 안정적으로 관리되고 있는 패키지임을 알게되었다. time.modified를 보아 몇년째 방치되는 패키지도 아닌 것 같다.
 ---
 
-### 2. `<패키지이름>`
+### 2. `<패키지 이름>`
 
 **선정 이유:**
 
