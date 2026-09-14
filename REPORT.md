@@ -115,7 +115,7 @@ $ node try.js
 
 ## 제출 전 확인
 
-- [ ] 저장소 이름이 `oss2026-a1`, 공개 범위가 Public
-- [ ] `git status` 결과가 `nothing to commit, working tree clean`
-- [ ] `node_modules` 폴더를 지우고 `npm install` → `node try.js` 를 다시 해도 실행됨
-- [ ] 마지막 커밋을 push함
+- [x] 저장소 이름이 `oss2026-a1`, 공개 범위가 Public
+- [x] `git status` 결과가 `nothing to commit, working tree clean`
+- [x] `node_modules` 폴더를 지우고 `npm install` → `node try.js` 를 다시 해도 실행됨
+- [x] 마지막 커밋을 push함
