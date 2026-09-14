@@ -6,7 +6,7 @@
 
 ## 어디를 둘러봤는지
 
-열어본 awesome-nodejs 카테고리, 터미널에서 써본 검색어, 링크를 따라간 경로 등을 적습니다.
+awesome-nodejs 저장소의 Mad science, Math, Email, Werid 카테고리들을 둘러 보았으며, npm 사이트에서 cow, email 등의 키워드를 검색하였다. 
 
 ---
 
